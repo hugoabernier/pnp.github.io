@@ -1,1 +1,0 @@
-"use strict";alert("Hello from blogs.ts!")
