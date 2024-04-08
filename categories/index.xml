@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Microsoft 365 &amp; Power Platform Community</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Microsoft 365 &amp; Power Platform Community</description>
+    <title>Categories on </title>
+    <link>https://pnp.github.io/categories/</link>
+    <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pnp.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Demo</title>
-      <link>http://localhost:1313/categories/demo/</link>
+      <link>https://pnp.github.io/categories/demo/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/demo/</guid>
+      <guid>https://pnp.github.io/categories/demo/</guid>
       <description></description>
     </item>
     <item>
       <title>Test</title>
-      <link>http://localhost:1313/categories/test/</link>
+      <link>https://pnp.github.io/categories/test/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/test/</guid>
+      <guid>https://pnp.github.io/categories/test/</guid>
       <description></description>
     </item>
   </channel>
