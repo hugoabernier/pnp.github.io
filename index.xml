@@ -6,8 +6,15 @@
     <description>Recent content in Home on Microsoft 365 &amp; Power Platform Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hugoabernier.github.io/pnp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Events</title>
+      <link>https://hugoabernier.github.io/pnp.github.io/test-events/test/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hugoabernier.github.io/pnp.github.io/test-events/test/</guid>
+      <description>This is the content of my test events page.</description>
+    </item>
     <item>
       <title>This is another blank blog post</title>
       <link>https://hugoabernier.github.io/pnp.github.io/blog/sample2/</link>
