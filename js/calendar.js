@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 const baseUrl = window.baseUrl;
 const updateEvents = () => __awaiter(void 0, void 0, void 0, function* () {
-    const url = new URL('/ical/calendar.json', baseUrl);
+    const url = new URL('./ical/calendar.json', baseUrl);
     console.log('URL:', url.toString());
     const response = yield fetch(url.toString());
     const ical = yield response.json();
