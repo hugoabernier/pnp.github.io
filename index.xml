@@ -2,115 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Microsoft 365 &amp; Power Platform Community</title>
-    <link>https://hugoabernier.github.io/pnp.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Microsoft 365 &amp; Power Platform Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://hugoabernier.github.io/pnp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Changing the world one contribution at a time!</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/home/hero/</link>
+      <link>http://localhost:1313/home/hero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/home/hero/</guid>
+      <guid>http://localhost:1313/home/hero/</guid>
       <description>Learn from others how to build apps on Microsoft 365 &amp;amp; Power Platform.&#xA;Don&amp;rsquo;t reinvent the wheel. Focus on what truly matters for your organization.</description>
     </item>
     <item>
       <title>Latest blog posts</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/home/blogs/</link>
+      <link>http://localhost:1313/home/blogs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/home/blogs/</guid>
+      <guid>http://localhost:1313/home/blogs/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft 365 &amp; Power Platform Community Calls</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/home/events/</link>
+      <link>http://localhost:1313/home/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/home/events/</guid>
+      <guid>http://localhost:1313/home/events/</guid>
       <description></description>
     </item>
     <item>
       <title>Guidance</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/home/guidance/</link>
+      <link>http://localhost:1313/home/guidance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/home/guidance/</guid>
+      <guid>http://localhost:1313/home/guidance/</guid>
       <description></description>
     </item>
     <item>
       <title>Samples &amp;amp; Solutions</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/home/samples/</link>
+      <link>http://localhost:1313/home/samples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/home/samples/</guid>
+      <guid>http://localhost:1313/home/samples/</guid>
       <description></description>
     </item>
     <item>
       <title>SDKs</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/home/sdks/</link>
+      <link>http://localhost:1313/home/sdks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/home/sdks/</guid>
+      <guid>http://localhost:1313/home/sdks/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/home/tools/</link>
+      <link>http://localhost:1313/home/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/home/tools/</guid>
+      <guid>http://localhost:1313/home/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Extensions</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/home/extensions/</link>
+      <link>http://localhost:1313/home/extensions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/home/extensions/</guid>
+      <guid>http://localhost:1313/home/extensions/</guid>
       <description></description>
     </item>
     <item>
       <title>Forums</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/home/forums/</link>
+      <link>http://localhost:1313/home/forums/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/home/forums/</guid>
+      <guid>http://localhost:1313/home/forums/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft 365 &amp; Power Platform Community initiative coordinators</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/home/team/</link>
+      <link>http://localhost:1313/home/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/home/team/</guid>
+      <guid>http://localhost:1313/home/team/</guid>
       <description>The community team is a virtual team consisting of Microsoft employees and community members focused on helping the community make the best use of Microsoft products.&#xA;We believe that by sharing guidance, tools, solutions, and samples, we better both the community itself and the quality of solutions created by the community.&#xA;This initiative is not about any one person or group of people: it is about improving things for the greater good of the community.</description>
     </item>
     <item>
-      <title>Test Events</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/test-events/test/</link>
-      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/test-events/test/</guid>
-      <description>This is the content of my test events page.</description>
-    </item>
-    <item>
       <title>This is another blank blog post</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/blog/sample2/</link>
+      <link>http://localhost:1313/blog/sample2/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/blog/sample2/</guid>
+      <guid>http://localhost:1313/blog/sample2/</guid>
       <description>Nothing to show here</description>
     </item>
     <item>
       <title>This is a blank blog post</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/blog/sample/</link>
+      <link>http://localhost:1313/blog/sample/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/blog/sample/</guid>
+      <guid>http://localhost:1313/blog/sample/</guid>
       <description>Nothing to show here</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://hugoabernier.github.io/pnp.github.io/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Thu, 03 Sep 2020 17:27:59 +0700</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>Here&amp;rsquo;s an example blog post.</description>
     </item>
     <item>
       <title></title>
-      <link>https://hugoabernier.github.io/pnp.github.io/privacy/extension/</link>
+      <link>http://localhost:1313/privacy/extension/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hugoabernier.github.io/pnp.github.io/privacy/extension/</guid>
+      <guid>http://localhost:1313/privacy/extension/</guid>
       <description>Privacy Policy Your privacy is important to us. This extension does not collect, store, or transmit any personal or sensitive user data.&#xA;We do not track your browsing activity, capture any information, or share data with third parties.&#xA;If you have any questions or concerns regarding your privacy while using our extension, feel free to contact us.&#xA;Modifications to Web Content This extension modifies HTML content on GitHub issues, pull request, and saved replies web pages to enhance your browsing experience.</description>
     </item>
   </channel>
