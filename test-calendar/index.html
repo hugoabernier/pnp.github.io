@@ -7,20 +7,20 @@
 <meta name="viewport" content="width=device-width">
 
 
-<meta name="description" content='Learn from others how to build apps on Microsoft 365 &amp; Power Platform.'/>
+<meta name="description" content='This is the content of my test calendar page. It looks ugly, but Stefan will make it look amazing. I&rsquo;m just testing populating a calendar.'/>
 <meta name="keywords" content=''/>
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Blogs"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Test Calendar"/>
 <meta name="twitter:description" content="Learn from others how to build apps on Microsoft 365 &amp; Power Platform."/>
       <meta name="twitter:site" content="@m365pnp"/>
 
-<meta property="og:title" content="Blogs" />
+<meta property="og:title" content="Test Calendar" />
 <meta property="og:description" content="Learn from others how to build apps on Microsoft 365 &amp; Power Platform." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://hugoabernier.github.io/pnp.github.io/blog/" />
+<meta property="og:url" content="https://hugoabernier.github.io/pnp.github.io/test-calendar/" />
 
 
-<link rel="canonical" href="https://hugoabernier.github.io/pnp.github.io/blog/">
+<link rel="canonical" href="https://hugoabernier.github.io/pnp.github.io/test-calendar/">
 
 
 
@@ -43,14 +43,14 @@
 
 
 
-<meta property="og:title" content="Blogs" />
+<meta property="og:title" content="Test Calendar" />
 <meta property="og:description" content="Learn from others how to build apps on Microsoft 365 &amp; Power Platform." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://hugoabernier.github.io/pnp.github.io/blog/" />
+<meta property="og:url" content="https://hugoabernier.github.io/pnp.github.io/test-calendar/" />
 
-<meta itemprop="name" content="Blogs">
+<meta itemprop="name" content="Test Calendar">
 <meta itemprop="description" content="Learn from others how to build apps on Microsoft 365 &amp; Power Platform.">
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Blogs"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Test Calendar"/>
 <meta name="twitter:description" content="Learn from others how to build apps on Microsoft 365 &amp; Power Platform."/>
       <meta name="twitter:site" content="@m365pnp"/>
 
@@ -68,7 +68,7 @@
 <link rel="manifest" href='https://hugoabernier.github.io/pnp.github.io/site.webmanifest' />
 <link rel="mask-icon" href='https://hugoabernier.github.io/pnp.github.io/safari-pinned-tab.svg' color='#0078d4' />
 
-<link rel="alternate" type="application/rss+xml" href="https://hugoabernier.github.io/pnp.github.io/blog/index.xml" title="Microsoft 365 & Power Platform Community" />
+<link rel="alternate" type="application/rss+xml" href="https://hugoabernier.github.io/pnp.github.io/test-calendar/index.xml" title="Microsoft 365 & Power Platform Community" />
 
 
 
@@ -143,32 +143,91 @@
 </header></div>
     
     <main>
-<h1>Blogs</h1>
+<style>
 
-<p>
-<h3><a class="title" href="https://hugoabernier.github.io/pnp.github.io/blog/sample2/">This is another blank blog post</a></h3>
-
-
-<i data-feather="calendar"></i>
-<time datetime="2024-04-02">Apr 2, 2024</time>
-
-<a class="summary" href="https://hugoabernier.github.io/pnp.github.io/blog/sample2/">
-  <p>Nothing to show here</p>
-</a>
-</p>
-
-<p>
-<h3><a class="title" href="https://hugoabernier.github.io/pnp.github.io/blog/sample/">This is a blank blog post</a></h3>
+.calendar {
+  display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: 1fr min-content;
+gap: 1em;
+}
 
 
-<i data-feather="calendar"></i>
-<time datetime="2024-04-01">Apr 1, 2024</time>
 
-<a class="summary" href="https://hugoabernier.github.io/pnp.github.io/blog/sample/">
-  <p>Nothing to show here</p>
-</a>
-</p>
+.day, .date {
+  padding: 1em;
+  text-align: center;
+  padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    backdrop-filter: blur(20px) saturate(190%) brightness(110%);
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+    filter: drop-shadow(-10px -10px 0.5em rgba(153, 181, 216, 0.1));
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.35));
+    background-color: rgba(255, 255, 255, 0);
+}
 
+.date::after {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 1rem;
+    content: " ";
+    background-image: linear-gradient(-215deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3));
+}
+
+.date .card-header {
+    text-align: left;
+    padding-bottom: 8px;
+}
+.date .card-header h1 {
+    height: 0.25em;
+    text-align: left;
+}
+
+.date .card-hor { 
+    border-radius: 0 0 0 0;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+  .day, .date {
+    padding: 0.5em;
+  }
+}
+
+
+.today {
+    backdrop-filter: blur(20px) saturate(190%) brightness(110%);
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+
+}
+
+</style>
+<section class="section-base community" id="community">
+    <div class="section-inner">
+        <header class="section-header">
+            <h1>Test Calendar</h1>
+            <p>This is the content of my test calendar page. It looks ugly, but Stefan will make it look amazing. I&rsquo;m just testing populating a calendar.</p>
+
+        </header>
+        <menu class="" id="calendar-container">
+            <div class="calendar"></div>
+        </menu>
+    </div>
+</section>
+
+<script>
+    window.baseUrl = 'https://hugoabernier.github.io/pnp.github.io/';
+</script>
+<script type="module" src="https://hugoabernier.github.io/pnp.github.io/js/calendar.js"></script>
 
     </main></main>
 	
@@ -200,7 +259,7 @@
 
 
     
-<img src='https://pnptelemetry.azurewebsites.net/hugoabernier.github.io/pnp.github.io/blog/' alt="">
+<img src='https://pnptelemetry.azurewebsites.net/hugoabernier.github.io/pnp.github.io/test-calendar/' alt="">
 </body>
 
 </html>
