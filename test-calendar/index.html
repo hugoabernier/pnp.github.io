@@ -159,8 +159,8 @@ gap: 1em;
   text-align: center;
   padding-top: 1.5em;
     padding-bottom: 1.5em;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-radius: 1rem;
+    border-radius: 1rem;
     backdrop-filter: blur(20px) saturate(190%) brightness(110%);
     background-color: rgba(255, 255, 255, 0.75);
     color: black;
@@ -196,6 +196,12 @@ gap: 1em;
     text-align: left;
 }
 
+.card-hor:hover {
+    position: relative;
+    z-index: 10;
+    transform: translate(5px, 5px) scale(1.05);
+    cursor: pointer;
+}
 @media (max-width: 600px) {
   .day, .date {
     padding: 0.5em;
