@@ -180,24 +180,34 @@ function generateCalendar(events) {
                 headerElem.appendChild(dayNameElem);
                 dayElem.appendChild(headerElem);
                 // Processing events
+                let eventsForTheDay = [];
                 events.forEach(event => {
                     event.nextOccurrences.forEach(occurrence => {
                         let occurrenceDate = new Date(occurrence.date);
                         let formattedDate = occurrenceDate.toISOString().split('T')[0];
                         if (formattedDate === thisMonday.toISOString().split('T')[0]) {
-                            const eventElem = document.createElement('div');
-                            eventElem.id = event.uid;
-                            eventElem.className = 'card-hor';
-                            eventElem.innerHTML = `<h2 class="sample-headline" title="${event.summary}">${event.summary}</h2>`;
-                            // Time display remains unchanged
-                            let formattedTime = occurrenceDate.toLocaleTimeString(navigator.language, { hour: 'numeric', minute: 'numeric', timeZone: 'UTC' });
-                            let timeElem = document.createElement('time');
-                            timeElem.textContent = formattedTime;
-                            timeElem.setAttribute('datetime', occurrenceDate.toISOString());
-                            eventElem.appendChild(timeElem);
-                            dayElem.appendChild(eventElem);
+                            eventsForTheDay.push({
+                                uid: event.uid,
+                                summary: event.summary,
+                                date: occurrenceDate
+                            });
                         }
                     });
+                });
+                // Sort the events for the day by date
+                eventsForTheDay.sort((a, b) => a.date.getTime() - b.date.getTime());
+                // Render the events for the day
+                eventsForTheDay.forEach(event => {
+                    const eventElem = document.createElement('div');
+                    eventElem.id = event.uid;
+                    eventElem.className = 'card-hor';
+                    eventElem.innerHTML = `<h2 class="sample-headline" title="${event.summary}">${event.summary}</h2>`;
+                    let formattedTime = event.date.toLocaleTimeString(navigator.language, { hour: 'numeric', minute: 'numeric', timeZone: 'UTC' });
+                    let timeElem = document.createElement('time');
+                    timeElem.textContent = formattedTime;
+                    timeElem.setAttribute('datetime', event.date.toISOString());
+                    eventElem.appendChild(timeElem);
+                    dayElem.appendChild(eventElem);
                 });
                 calendarContainer.appendChild(dayElem);
             }
