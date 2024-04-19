@@ -19,31 +19,29 @@ RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-DESCRIPTION:Welcome to the Microsoft 365 & Power Platform community call! 
- This is a weekly recurrent call with 2 to 3 different topics around the M
- icrosoft 365 and Power Platform extensibility.\n\nThis call is intended f
- or the Microsoft to update the community on the latest news and updates -
-  with live demos.\n\nWe'll also include the latest news and updates for b
- uilding engaging solutions and experiences in the Microsoft 365 platform.
- \n\n\n___________________________________________________________________
- _____________\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobil
-e app or room device\n\nClick here to join the meeting<https://aka.ms/m36
- 5-dev-call-join>\n\n_____________________________________________________
- ___________________________\n\n(notice. This is an aka.ms link as we migh
- t change the actual invite URL. This way any changes are transparent for 
- you if you access the call from above link)\n\nCommunity call recordings 
-will be published at theMicrosoft 365 Community YouTube channel at https:
- //aka.ms/m365pnp/videos -Subscribe to get notified of the new daily video
- s!\n\nResources\n- Followus on Twitter with @Microsoft365dev or @m365pnp 
- - we publish the call agenda in the social media always few days before t
- he call\n- Subscriber also tothe Microsoft 365 Dev YouTube channel for ot
-her Microsoft 365 developer videos at https://m365dev/videos\n- Community
-call summaries will be published at https://aka.ms/m365pnp/community/blo
- g\n- Latest news on Microsoft 365platform from Microsoft 365 developer bl
-og at https://developer.microsoft.com/en-us/microsoft-365/blogs/\n\nEasie
-st way to find official docs\, SDKs and community assets - https://aka.ms
- /m365pnp\n\n
-RRULE:FREQ=WEEKLY;UNTIL=20240924T150000Z;INTERVAL=1;BYDAY=TU;WKST=SU
+DESCRIPTION:Welcome to the Microsoft 365 & Power Platform community call! T
+ his is a weekly recurrent call with 2 to 3 different topics around the Mic
+ rosoft 365 and Power Platform extensibility.\n\nThis call is intended for 
+ the Microsoft to update the community on the latest news and updates - wit
+ h live demos.\n\nWe'll also include the latest news and updates for buildi
+ ng engaging solutions and experiences in the Microsoft 365 platform.\n\n\n
+ __________________________________________________________________________
+ ______\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile app or
+  room device\n\nClick here to join the meeting<https://aka.ms/m365-dev-cal
+ l-join>\n\n_______________________________________________________________
+ _________________\n\n(notice. This is an aka.ms link as we might change th
+ e actual invite URL. This way any changes are transparent for you if you a
+ ccess the call from above link)\n\nCommunity call recordings will be publi
+ shed at the Microsoft 365 Community YouTube channel at https://aka.ms/m365
+ pnp/videos - Subscribe to get notified of the new daily videos!\n\nResourc
+ es\n- Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish 
+ the call agenda in the social media always few days before the call\n- Sub
+ scriber also to the Microsoft 365 Dev YouTube channel for other Microsoft 
+ 365 developer videos at https://m365dev/videos\n- Community call summaries
+  will be published at https://aka.ms/m365pnp/community/blog\n- Latest news
+  on Microsoft 365 platform from Microsoft 365 developer blog at https://de
+ veloper.microsoft.com/en-us/microsoft-365/blogs/\n\nEasiest way to find of
+ ficial docs\, SDKs and community assets - https://aka.ms/m365pnp\n\n
 UID:040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA01000000000000000
  01000000051CB05FE8CA1C74BB006BB017D44378A
 SUMMARY:Microsoft 365 & Power Platform Weekly Call
@@ -51,7 +49,7 @@ DTSTART;TZID=Pacific Standard Time:20240402T080000
 DTEND;TZID=Pacific Standard Time:20240402T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T164119Z
+DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -69,32 +67,27 @@ X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/m365-dev-call-join
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Welcome to the Viva Connections & SharePoint Framework Bi-week
- ly Special Interest Group call around Client-side development. Topics cov
- ered in this call are SharePoint Framework latest updates\, PnPjs\, Offic
- e365Cli\, Reusable Controls\, and community demos.\n\n\n_________________
- _______________________________________________________________\n\nMicros
- oft Teamsmeeting\n\nJoin on your computer\, mobile app or room device\n\n
-Click hereto join the meeting<https://aka.ms/spdev-spfx-call-join><https:
- //teams.microsoft.com/l/meetup-join/19%3a75ad5c9892944ea49178515a4059409f
- %40thread.tacv2/1673371767060?context=%7b%22Tid%22%3a%2257fdf63b-7e22-45a
- 3-83dc-d37003163aae%22%2c%22Oid%22%3a%2288fafcc7-8fac-4e29-a248-9ae50bcce
- 2a9%22%7d>\n\n___________________________________________________________
- _____________________\n\n\n(notice. This is an aka.ms link as we might ch
- ange the actual invite URL. This way any changes are transparent for you 
- if you access the callfrom above link)\n\nCommunity call recordings will 
-be published at the Microsoft 365 Community YouTube channel at https://ak
- a.ms/m365pnp/videos - Subscribe to get notified of the new daily videos!\
- n\nResources\n\n- Follow uson Twitter with @Microsoft365dev or @m365pnp -
-  we publish the call agenda in the social media always few days before th
- e call\n\n- Subscriber also tothe Microsoft 365 Dev YouTube channel for o
-ther Microsoft 365 developer videos at https://m365dev/videos\n\n- Commun
-ity call summaries will be published at https://aka.ms/m365pnp/community/
- blog\n\n- Latest news on Microsoft 365 platform from Microsoft 365 develo
-per blog at https://developer.microsoft.com/microsoft-365/blogs/\n\n\nEas
-iest way to find official docs\, SDKs and community assets - https://aka.
- ms/m365pnp\n
-RRULE:FREQ=WEEKLY;UNTIL=20250417T140000Z;INTERVAL=2;BYDAY=TH;WKST=SU
+DESCRIPTION:Welcome to the Viva Connections & SharePoint Framework Bi-weekl
+ y Special Interest Group call around Client-side development. Topics cover
+ ed in this call are SharePoint Framework latest updates\, PnPjs\, Office36
+ 5Cli\, Reusable Controls\, and community demos.\n\n\n_____________________
+ ___________________________________________________________\n\nMicrosoft T
+ eams meeting\n\nJoin on your computer\, mobile app or room device\n\nClick
+  here to join the meeting<https://aka.ms/spdev-spfx-call-join>\n\n\n______
+ __________________________________________________________________________
+ \n\n(notice. This is an aka.ms link as we might change the actual invite U
+ RL. This way any changes are transparent for you if you access the call fr
+ om above link)\n\nCommunity call recordings will be published at the Micro
+ soft 365 Community YouTube channel at https://aka.ms/m365pnp/videos - Subs
+ cribe to get notified of the new daily videos!\n\nResources\n\n- Follow us
+  on Twitter with @Microsoft365dev or @m365pnp - we publish the call agenda
+  in the social media always few days before the call\n\n- Subscriber also 
+ to the Microsoft 365 Dev YouTube channel for other Microsoft 365 developer
+  videos at https://m365dev/videos\n\n- Community call summaries will be pu
+ blished at https://aka.ms/m365pnp/community/blog\n\n- Latest news on Micro
+ soft 365 platform from Microsoft 365 developer blog at https://developer.m
+ icrosoft.com/microsoft-365/blogs/\n\n\nEasiest way to find official docs\,
+  SDKs and community assets - https://aka.ms/m365pnp\n
 UID:040000008200E00074C5B7101A82E00800000000CE03C195278ADA01000000000000000
  0100000001D5D5DA85E858D45B9A47028FB60C7F2
 SUMMARY:Viva Connections & SharePoint Framework Community Call
@@ -102,7 +95,7 @@ DTSTART;TZID=Pacific Standard Time:20240404T070000
 DTEND;TZID=Pacific Standard Time:20240404T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T164119Z
+DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -119,33 +112,28 @@ X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:The Office Add-ins community call is our monthly event for dev
- elopers to connect in real-time with the folks who are building the Offic
- e JavaScript APIs. During this call\, we’ll share updates about new Offic
- e JavaScript APIs and provide tips about useful tools\, samples\, and res
- ources for developing Office Add-ins. Additionally\, each call will featu
- re a technical deep dive on a specific topic and will conclude with an op
- portunityfor attendees to ask questions and share feedback.\n\n\n________
- ________________________________________________________________________\
- n\nMicrosoftTeams meeting\n\nJoin on your computer\, mobile app or room d
-evice\n\nClick here to join the meeting<https://aka.ms/officeaddinscall-j
-oin><https://teams.microsoft.com/l/meetup-join/19%3a75ad5c9892944ea491785
- 15a4059409f%40thread.tacv2/1673371767060?context=%7b%22Tid%22%3a%2257fdf6
- 3b-7e22-45a3-83dc-d37003163aae%22%2c%22Oid%22%3a%2288fafcc7-8fac-4e29-a24
- 8-9ae50bcce2a9%22%7d>\n\n\nOr join by phone (audio only)\n+1 323-849-4874
-\,\,975455939# United States\, Los Angeles\nPhone Conference ID: 975 455 
-939#\nFind a local number<https://dialin.teams.microsoft.com/8551f4c1-bea
-3-441a-8738-69aa517a91c5?id=975455939> | Reset PIN<https://mysettings.lyn
- c.com/pstnconferencing>\n\n______________________________________________
- __________________________________\n\n\nResources\nCommunity call topic r
-equests and questions<https://aka.ms/officeaddinsform>\nFollow us on Twit
-ter @Microsoft365Dev<https://twitter.com/Microsoft365Dev> for the latest 
- announcements\nCommunity call recordings on the YouTube Microsoft 365 Dev
-channel<https://aka.ms/M365DevYouTube>\nGet started with Office Add-ins 
-development<https://developer.microsoft.com/office>\nJoin the Microsoft 3
-65 Developer Program<https://developer.microsoft.com/microsoft-365/dev-pr
- ogram>\n\n\n
-RRULE:FREQ=MONTHLY;UNTIL=20250409T140000Z;INTERVAL=1;BYDAY=2WE
+DESCRIPTION:The Office Add-ins community call is our monthly event for deve
+ lopers to connect in real-time with the folks who are building the Office 
+ JavaScript APIs. During this call\, we’ll share updates about new Office J
+ avaScript APIs and provide tips about useful tools\, samples\, and resourc
+ es for developing Office Add-ins. Additionally\, each call will feature a 
+ technical deep dive on a specific topic and will conclude with an opportun
+ ity for attendees to ask questions and share feedback.\n\n\n______________
+ __________________________________________________________________\n\nMicr
+ osoft Teams meeting\n\nJoin on your computer\, mobile app or room device\n
+ \nClick here to join the meeting<https://aka.ms/officeaddinscall-join>\n\n
+ \nOr join by phone (audio only)\n\n+1 323-849-4874\,\,975455939# United St
+ ates\, Los Angeles\nPhone Conference ID: 975 455 939#\nFind a local number
+ <https://dialin.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?i
+ d=975455939> | Reset PIN<https://mysettings.lync.com/pstnconferencing>\n\n
+ __________________________________________________________________________
+ ______\n\n\nResources\nCommunity call topic requests and questions<https:/
+ /aka.ms/officeaddinsform>\nFollow us on Twitter @Microsoft365Dev<https://t
+ witter.com/Microsoft365Dev> for the latest announcements\nCommunity call r
+ ecordings on the YouTube Microsoft 365 Dev channel<https://aka.ms/M365DevY
+ ouTube>\nGet started with Office Add-ins development<https://developer.mic
+ rosoft.com/office>\nJoin the Microsoft 365 Developer Program<https://devel
+ oper.microsoft.com/microsoft-365/dev-program>\n\n\n
 UID:040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000
  010000000214806AD1FEB9B49B9BA5E95BB8A21A0
 SUMMARY:Office Add-ins
@@ -153,7 +141,7 @@ DTSTART;TZID=Pacific Standard Time:20240410T070000
 DTEND;TZID=Pacific Standard Time:20240410T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T164119Z
+DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -170,30 +158,26 @@ X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Welcome to the Microsoft 365 & Power Platform - General Develo
- pment Bi-weekly Special Interest Group call around Microsoft 365 General 
- developer topics.\n\nTopics covered in this call are solution designs\, p
- rovisioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, et
- c. across the platform with updates from Microsoft and 2-3 live demos.\n\
- n\n______________________________________________________________________
- __________\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile a
-pp or room device\n\nClick here to join the meeting<https://aka.ms/m365-d
-ev-sig-join><https://teams.microsoft.com/l/meetup-join/19%3a75ad5c9892944
- ea49178515a4059409f%40thread.tacv2/1673371767060?context=%7b%22Tid%22%3a%
- 2257fdf63b-7e22-45a3-83dc-d37003163aae%22%2c%22Oid%22%3a%2288fafcc7-8fac-
- 4e29-a248-9ae50bcce2a9%22%7d>\n\n________________________________________
- ________________________________________\n\n(notice. This is an aka.ms li
- nk as we might change the actual invite URL. This way any changes are tra
- nsparent for you as long as you access the call from above link)\n\nMicro
-soft 365 Patterns and Practices community – https://aka.ms/m365pnp\n\nMic
-rosoft 365 Developer YouTubechannel – https://aka.ms/M365DevYouTube\n\nMi
-crosoft 365 and SharePointCommunity YouTube channel – https://m365pnp-vid
-eos\n\nMicrosoft 365 Open-Source – https://github.com/pnp \, https://gith
-ub.com/officedev \, https://github.com/sharepoint \, https://github.com/m
- icrosoftgraph\n\nSample galleries – take advantage of existing samples – 
-https://aka.ms/teams-samples \, https://aka.ms/spfx-webparts \, https://a
-ka.ms/list-formatting \, https://aka.ms/spfx-extensions\n
-RRULE:FREQ=WEEKLY;UNTIL=20250410T140000Z;INTERVAL=2;BYDAY=TH;WKST=SU
+DESCRIPTION:Welcome to the Microsoft 365 & Power Platform - General Develop
+ ment Bi-weekly Special Interest Group call around Microsoft 365 General de
+ veloper topics.\n\nTopics covered in this call are solution designs\, prov
+ isioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, etc. a
+ cross the platform with updates from Microsoft and 2-3 live demos.\n\n\n__
+ __________________________________________________________________________
+ ____\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile app or r
+ oom device\n\nClick here to join the meeting<https://aka.ms/m365-dev-sig-j
+ oin><https://aka.ms/m365-dev-sig-join>\n\n\n______________________________
+ __________________________________________________\n\n(notice. This is an 
+ aka.ms link as we might change the actual invite URL. This way any changes
+  are transparent for you as long as you access the call from above link)\n
+ \nMicrosoft 365 Patterns and Practices community – https://aka.ms/m365pnp\
+ n\nMicrosoft 365 Developer YouTube channel – https://aka.ms/M365DevYouTube
+ \n\nMicrosoft 365 and SharePoint Community YouTube channel – https://m365p
+ np-videos\n\nMicrosoft 365 Open-Source – https://github.com/pnp \, https:/
+ /github.com/officedev \, https://github.com/sharepoint \, https://github.c
+ om/microsoftgraph\n\nSample galleries – take advantage of existing samples
+  – https://aka.ms/teams-samples \, https://aka.ms/spfx-webparts \, https:/
+ /aka.ms/list-formatting \, https://aka.ms/spfx-extensions\n
 UID:040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000
  010000000F485AAF2995C3947AF4B1E87F01384A0
 SUMMARY:Microsoft 365 & Power Platform Community Call
@@ -201,7 +185,7 @@ DTSTART;TZID=Pacific Standard Time:20240411T070000
 DTEND;TZID=Pacific Standard Time:20240411T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T164119Z
+DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -218,12 +202,11 @@ X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:______________________________________________________________
- __________________\nMicrosoft Teams meeting\n\nJoin on your computer\, mo
-bile app or room device\nClick here to join the meeting<https://aka.ms/mm
- 4m365/join-call>\n_______________________________________________________
- _________________________\n
-RRULE:FREQ=MONTHLY;UNTIL=20250415T140000Z;INTERVAL=1;BYDAY=3TU
+DESCRIPTION:_______________________________________________________________
+ _________________\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mo
+ bile app or room device\nClick here to join the meeting<https://aka.ms/mm4
+ m365/join-call>\n\n_______________________________________________________
+ ________________________\n
 UID:040000008200E00074C5B7101A82E00800000000A07914A1AD8EDA01000000000000000
  010000000C336836834D5AF489D8E4225EE9C3B0B
 SUMMARY:Maturity Model for Microsoft 365
@@ -231,7 +214,7 @@ DTSTART;TZID=Pacific Standard Time:20240416T070000
 DTEND;TZID=Pacific Standard Time:20240416T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T164119Z
+DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -248,27 +231,23 @@ X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:The Power Platform Monthly community call happens on the 3rd W
- ednesday of each month. On the call\, we demonstrate tips and tools to he
- lpyou build awesome Power Apps\, Power Automate\, Power Apps Portals\, Po
- werVirtual Agents\, Power BI (and more) and discuss the latest Power Plat
- formnews. You will meet the Power Platform product team and community exp
- erts to get your questions answered.\n\n\n_______________________________
- _________________________________________________\n\nMicrosoft Teams meet
- ing\n\nJoin on your computer\, mobile app or room device\n\nClick here to
-join the meeting<https://aka.ms/PowerPlatformMonthlyCall><https://teams.
- microsoft.com/l/meetup-join/19%3a75ad5c9892944ea49178515a4059409f%40threa
- d.tacv2/1673371767060?context=%7b%22Tid%22%3a%2257fdf63b-7e22-45a3-83dc-d
- 37003163aae%22%2c%22Oid%22%3a%2288fafcc7-8fac-4e29-a248-9ae50bcce2a9%22%7
- d>\n\n___________________________________________________________________
- _____________\n\nResources\n\nFollow us on Twitter @Microsoft365Dev<https
-://www.twitter.com/Microsoft365Dev> for the latest announcements\n\nSubsc
-ribe to our Microsoft 365Dev YouTube channel<https://www.youtube.com/chan
- nel/UCV_6HOhwxYLXAGd-JOqKPoQ> for developer videos (includes previous cal
-l recordings)\n\nPower Platform<http://powerplatform.microsoft.com/>\n\nJ
-oin the Microsoft 365 DeveloperProgram<https://developer.microsoft.com/en
- -us/microsoft-365/dev-program>\n
-RRULE:FREQ=MONTHLY;UNTIL=20250416T150000Z;INTERVAL=1;BYDAY=3WE
+DESCRIPTION:The Power Platform Monthly community call happens on the 3rd We
+ dnesday of each month. On the call\, we demonstrate tips and tools to help
+  you build awesome Power Apps\, Power Automate\, Power Apps Portals\, Powe
+ r Virtual Agents\, Power BI (and more) and discuss the latest Power Platfo
+ rm news. You will meet the Power Platform product team and community exper
+ ts to get your questions answered.\n\n\n__________________________________
+ ______________________________________________\n\nMicrosoft Teams meeting\
+ n\nJoin on your computer\, mobile app or room device\n\nClick here to join
+  the meeting<https://aka.ms/PowerPlatformMonthlyCall>\n\n\n_______________
+ _________________________________________________________________\n\nResou
+ rces\n\nFollow us on Twitter @Microsoft365Dev<https://www.twitter.com/Micr
+ osoft365Dev> for the latest announcements\n\nSubscribe to our Microsoft 36
+ 5 Dev YouTube channel<https://www.youtube.com/channel/UCV_6HOhwxYLXAGd-JOq
+ KPoQ> for developer videos (includes previous call recordings)\n\nPower Pl
+ atform<http://powerplatform.microsoft.com/>\n\nJoin the Microsoft 365 Deve
+ loper Program<https://developer.microsoft.com/en-us/microsoft-365/dev-prog
+ ram>\n
 UID:040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000
  010000000F6C360139C27FF4B8FF87F06B421CDB8
 SUMMARY:Power Platform Monthly Call 
@@ -276,7 +255,7 @@ DTSTART;TZID=Pacific Standard Time:20240417T080000
 DTEND;TZID=Pacific Standard Time:20240417T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T164119Z
+DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
