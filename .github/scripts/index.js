@@ -3,7 +3,7 @@ const ical = require('ical.js');
 const fs = require('fs');
 const path = require('path');
 
-const ICS_URL = process.env.ICS_URL || "https://outlook.office365.com/owa/calendar/c80c26982a604d3e89b403a318e7a477@officedevpnp.onmicrosoft.com/299d3353259f4abf919f4abbeffea3863901301114936881794/calendar.ics"; // Use the environment variable
+const ICS_URL = process.env.ICS_URL; // Use the environment variable
 let dirPath;
 if (process.argv.includes('--action')) {
     // If the script is being run as a GitHub Actions workflow
@@ -331,7 +331,7 @@ function createHTMLDescription(description) {
 
     // Replace the Teams divider lines with a horizontal rule
     description = description.replace(/_{80,}/g, '<div style="margin-bottom:24px; overflow:hidden; white-space:nowrap">________________________________________________________________________________</div>');
-    
+
     // Replace the separator line
     const separatorRegex = /\\n_{32}\\n/;
     const separatorMatch = description.match(separatorRegex);
@@ -357,7 +357,7 @@ function createHTMLDescription(description) {
     // Replace the Join link
     description = description.replace(/\\nJoin on your computer\\, mobile app or room device\\n/g, '');
     description = description.replace(/Join on your computer\\, mobile app or room device/g, '');
-    
+
     const regex = /(\\n)?Click here to join the meeting<([\s\S]+?)>(<[\s\S]+>)?(\\n)?/g;
     description = description.replace(regex, (_match, _p1, url, _p3, _p4) => {
         // You can use the captured URL here
@@ -376,7 +376,7 @@ function createHTMLDescription(description) {
 
 function convertMarkdownLinksToHTML(text) {
     const regex = /<(https?:\/\/[\s\S]+?)>/g;
-    
+
     return text.replace(regex, '<a href="$1">$1</a>');
 }
 
